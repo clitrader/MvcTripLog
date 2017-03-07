@@ -32,7 +32,7 @@ namespace MvcTripLog.Migrations
             new Trip
             {
                 Title = "When Harry Met Sally",
-                ReleaseDate = DateTime.Parse("1989-1-11"),
+                TravelDate = DateTime.Parse("1989-1-11"),
                 Region = "Romantic Comedy",
                 Price = 7.99M
             },
@@ -40,7 +40,7 @@ namespace MvcTripLog.Migrations
             new Trip
             {
                 Title = "Ghostbusters ",
-                ReleaseDate = DateTime.Parse("1984-3-13"),
+                TravelDate = DateTime.Parse("1984-3-13"),
                 Region = "Comedy",
                 Price = 8.99M
             },
@@ -48,7 +48,7 @@ namespace MvcTripLog.Migrations
             new Trip
             {
                 Title = "Ghostbusters 2",
-                ReleaseDate = DateTime.Parse("1986-2-23"),
+                TravelDate = DateTime.Parse("1986-2-23"),
                 Region = "Comedy",
                 Price = 9.99M
             },
@@ -56,7 +56,7 @@ namespace MvcTripLog.Migrations
             new Trip
             {
                 Title = "Rio Bravo",
-                ReleaseDate = DateTime.Parse("1959-4-15"),
+                TravelDate = DateTime.Parse("1959-4-15"),
                 Region = "Western",
                 Price = 3.99M
             }

@@ -57,6 +57,11 @@ namespace MvcTripLog.Controllers
             return View(trip);
         }
 
+        public ActionResult AddDetail()
+        {
+            return View();
+        }
+
         // GET: Trips/Create
         public ActionResult Create()
         {
@@ -68,7 +73,7 @@ namespace MvcTripLog.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Title,ReleaseDate,Region,Price")] Trip trip)
+        public ActionResult Create([Bind(Include = "ID,Title,TravelDate,Region,Price")] Trip trip)
         {
             if (ModelState.IsValid)
             {
@@ -100,7 +105,7 @@ namespace MvcTripLog.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Title,ReleaseDate,Region,Price")] Trip trip)
+        public ActionResult Edit([Bind(Include = "ID,Title,TravelDate,Region,Price")] Trip trip)
         {
             if (ModelState.IsValid)
             {

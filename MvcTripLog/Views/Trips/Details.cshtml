@@ -1,4 +1,5 @@
-﻿@model MvcTripLog.Models.Trip
+﻿@using System.Web.UI.HtmlControls
+@model MvcTripLog.Models.Trip
 
 @{
     ViewBag.Title = "Details";
@@ -19,11 +20,11 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ReleaseDate)
+            @Html.DisplayNameFor(model => model.TravelDate)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.ReleaseDate)
+            @Html.DisplayFor(model => model.TravelDate)
         </dd>
 
         <dt>
@@ -44,6 +45,9 @@
 
     </dl>
 </div>
+<p>
+    @Html.ActionLink("Add Detail", "AddDetail")
+</p>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
     @Html.ActionLink("Back to List", "Index")
