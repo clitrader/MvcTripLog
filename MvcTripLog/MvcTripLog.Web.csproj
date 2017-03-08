@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MvcTripLog</RootNamespace>
-    <AssemblyName>MvcTripLog</AssemblyName>
+    <RootNamespace>MvcTripLog.Web</RootNamespace>
+    <AssemblyName>MvcTripLog.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -203,15 +203,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201703081812367_initial.cs" />
-    <Compile Include="Migrations\201703081812367_initial.Designer.cs">
-      <DependentUpon>201703081812367_initial.cs</DependentUpon>
+    <Compile Include="Migrations\201703062238537_initial.cs" />
+    <Compile Include="Migrations\201703062238537_initial.Designer.cs">
+      <DependentUpon>201703062238537_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703062253350_201703062238537_initial.cs" />
+    <Compile Include="Migrations\201703062253350_201703062238537_initial.Designer.cs">
+      <DependentUpon>201703062253350_201703062238537_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\Trip.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -294,9 +294,22 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201703081812367_initial.resx">
-      <DependentUpon>201703081812367_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201703062238537_initial.resx">
+      <DependentUpon>201703062238537_initial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703062253350_201703062238537_initial.resx">
+      <DependentUpon>201703062253350_201703062238537_initial.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MvcTripLog.Logic\MvcTripLog.Logic.csproj">
+      <Project>{07e5618c-9b3b-49ce-8b6e-3141b1812844}</Project>
+      <Name>MvcTripLog.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MvcTripLog.Models\MvcTripLog.Models.csproj">
+      <Project>{fb63ccc0-d621-49b6-a143-bfd1f5134ea9}</Project>
+      <Name>MvcTripLog.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

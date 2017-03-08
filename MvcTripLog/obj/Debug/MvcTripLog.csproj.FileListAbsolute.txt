@@ -78,8 +78,7 @@ C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\bin\Microsoft.Owin.Security.Google
 C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\obj\Debug\MvcTripLog.csprojResolveAssemblyReference.cache
-C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\obj\Debug\MvcTripLog.Migrations.initial.resources
-C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\obj\Debug\MvcTripLog.Migrations._201703062238537_initial.resources
-C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\obj\Debug\MvcTripLog.csproj.GenerateResource.Cache
 C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\obj\Debug\MvcTripLog.dll
 C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\obj\Debug\MvcTripLog.pdb
+C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\obj\Debug\MvcTripLog.Migrations.initial.resources
+C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\obj\Debug\MvcTripLog.csproj.GenerateResource.Cache

@@ -1,0 +1,1 @@
+C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog.Models\obj\Debug\MvcTripLog.Models.csprojResolveAssemblyReference.cache

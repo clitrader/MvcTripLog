@@ -13,7 +13,7 @@ namespace MvcTripLog.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201703062238537_initial"; }
+            get { return "201703081812367_initial"; }
         }
         
         string IMigrationMetadata.Source

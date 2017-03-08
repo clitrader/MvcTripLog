@@ -13,9 +13,11 @@ namespace MvcTripLog.Migrations
                     {
                         ID = c.Int(nullable: false, identity: true),
                         Title = c.String(),
-                        TravelTime = c.DateTime(nullable: false),
+                        TravelDate = c.DateTime(nullable: false),
                         Region = c.String(),
                         Price = c.Decimal(nullable: false, precision: 18, scale: 2),
+                        TripDate = c.String(),
+                        Attraction = c.String(),
                     })
                 .PrimaryKey(t => t.ID);
             

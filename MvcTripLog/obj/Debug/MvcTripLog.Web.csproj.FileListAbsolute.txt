@@ -1,0 +1,4 @@
+C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\obj\Debug\MvcTripLog.Web.csprojResolveAssemblyReference.cache
+C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\obj\Debug\MvcTripLog.Migrations.initial.resources
+C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\obj\Debug\MvcTripLog.Migrations._201703062238537_initial.resources
+C:\Users\cli\Desktop\QA\MvcTripLog\MvcTripLog\obj\Debug\MvcTripLog.Web.csproj.GenerateResource.Cache
